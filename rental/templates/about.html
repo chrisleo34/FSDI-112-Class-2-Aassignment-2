@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+<link rel="stylesheet" href="/static/css/about.css">
+
+
+{% block content%}
+<div class="jumbotron">
+  <h1 class="display-4">About Vidly</h1>
+  <p style="font-family: Mali, cursive;" class="lead">
+    the world's leading streaming entertainment service with 193 million paid memberships in over 190 countries enjoying
+    TV
+    series, documentaries and feature films across a wide variety of genres and languages. Members can watch as much as
+    they
+    want, anytime, anywhere, on any internet-connected screen.
+  </p>
+  <hr class="my-4" />
+  <p>
+    Members can play, pause and resume watching, all without commercials or commitments.
+    <br>
+    Check out our movie list below for rentals and streaming
+  </p>
+  <a style="font-family: Mali, cursive;" class="btn btn-primary btn-lg" href="http://localhost:8000/movielist"
+    role="button">Movies for rent</a>
+</div>
+{% endblock %}

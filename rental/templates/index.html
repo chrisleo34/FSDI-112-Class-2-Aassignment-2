@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+
+<link rel="stylesheet" href="/static/css/layout.css">
+
+
+{% block content%}
+<div class="jumbotron">
+  <h1 style="text-align: center;" class="display-4">Hello, world!</h1>
+  <br>
+  <p style="text-align: center;" class="lead">
+    Welcome to Vidly! Your one stop shop to Hollywood.
+  </p>
+  <hr class="my-4" />
+  <p style="font-family: Mali, cursive; text-align: center;">
+    Vidly introduces a personalized movie recommendation system, which uses Vidly members’ ratings to accurately predict
+    choices
+  </p>
+  <a class="btn btn-md"
+    style="background-color:  rgb(80, 152, 219); color: black; font-family: Mali, cursive; float:right;"
+    href="http://localhost:8000/about" role="button">Learn
+    more</a>
+</div>
+{% endblock %}
